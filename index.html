@@ -2068,7 +2068,7 @@
 
       /* ============ Map init ============ */
       const map = L.map("map", { zoomControl: true, attributionControl: false }).setView([27.9, -81.6], 7);
-      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png", { subdomains: "abcd", maxZoom: 19 }).addTo(map);
+      L.tileLayer("https://{s}.basemaps.cartocdn.com/dark_all/{z}/{x}/{y}{r}.png?key=cb1_2spt_1_9ccf228c6c61499393db899d", { subdomains: "abcd", maxZoom: 19 }).addTo(map);
 
       // Dedicated pane for ZIP/county labels: keeps them on their own stacking layer,
       // always above the color polygons, and -- since panes are part of Leaflet's core
